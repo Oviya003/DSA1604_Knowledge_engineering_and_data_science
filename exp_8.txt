@@ -1,0 +1,26 @@
+Create Ontology: UniversityOntology
+
+Classes:
+    Person
+    Student
+    Faculty
+    Course
+
+Subclasses:
+    Student -> Person
+    Faculty -> Person
+
+Object Property:
+    enrolledIn
+    Domain: Student
+    Range: Course
+
+Individuals:
+    Arun : Student
+    PythonProgramming : Course
+
+Relationship:
+    Arun enrolledIn PythonProgramming
+
+Run the reasoner to infer:
+    Arun is a Person.
