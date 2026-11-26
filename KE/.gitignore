@@ -1,0 +1,42 @@
+# ==============================================================================
+# ExplainAI - Git Ignore Configuration
+# ==============================================================================
+
+# Credentials & Secrets
+credentials.toml
+*/credentials.toml
+.streamlit/credentials.toml
+*.pem
+*.key
+*.secret
+.env
+.env.*
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.swp
+*.swo
+
+# Temporary Files & Logs
+*.log
+*.tmp
+*.bak
+streamlit_*.log
+
+# Environment & Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS-Specific
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary Scratch Files
+scratch/
+
